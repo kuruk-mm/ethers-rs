@@ -32,7 +32,7 @@ http = "0.2"
 reqwest = { workspace = true, features = ["json"] }
 url.workspace = true
 base64 = "0.22"
-jsonwebtoken = "9"
+jsonwebtoken = { git = "https://git.pfaff.dev/michael/jsonwebtoken" }
 
 async-trait.workspace = true
 hex.workspace = true
